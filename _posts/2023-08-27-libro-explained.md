@@ -4,7 +4,6 @@ title: "[ICSE 2023] Exploring LLM-based General Bug Reproduction"
 date: 2023-08-27 16:08:00+0900
 description: "An explanation of my ICSE'23 work, and perspective one year after submitting the paper"
 categories: academia LLM test_generation
-thumbnail: assets/img/publication_preview/libro_thumbnail.png
 giscus_comments: true
 related_posts: true
 ---
