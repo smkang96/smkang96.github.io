@@ -1,0 +1,62 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sungmin Kang
+    - name: Languages
+      value: English (preferred written language), Korean (preferred spoken language)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Korea Advanced Institute of Science and Technology
+      year: current
+      description:
+        - Test Generation using Generative Models
+        - Automated Debugging via Machine Learning
+        - Theoretic Analysis of Automated Debugging
+    - title: Bachelors Degree in Computer Science
+      institution: Korea Advanced Institute of Science and Technology
+      year: 2019
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Intern (Remote)
+      institution: Microsoft Research Asia (Beijing)
+      year: 2022 - 2023
+      description:
+       - Worked on automated debugging via large language models.
+       - Supervised by Dr. Jian-guang Lou.
+
+    - title: Intern
+      institution: NAVER WEBTOON Corp.
+      year: 2017
+      description:
+       - Worked on automatic cartoon colorization.
+       - Supervised by Prof. Jaegul Choo.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Best Position Paper Award, from GI 2023
+        - Best Presentation Award, from GI 2023
+    - year: 2022
+      items: 
+        - Best Short Paper Award, from KCSE 2022
+    - year: 2019
+      items:
+        - Excellent Teaching Assistant Award, from KAIST CS
+
+- title: Other Interests
+  type: time_table
+  contents:
+    - year: MOVIES
+      items: 
+        - I enjoy watching movies, both old and new. I am fond of [12 Angry Men].
+    - year: TRAVEL
+      items:
+        - I like traveling abroad as well. I've traveled solo to Spain and Uzbekistan.
