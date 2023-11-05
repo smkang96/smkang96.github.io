@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://smkang96.github.io//sitemap.xml
+Sitemap: https://smkang96.github.io/sitemap.xml
