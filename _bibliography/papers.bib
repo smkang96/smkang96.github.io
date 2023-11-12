@@ -1,3 +1,28 @@
+@misc{kang2023evaluating,
+  bibtex_show={true},
+      title={Evaluating Diverse Large Language Models for Automatic and General Bug Reproduction}, 
+      author={Sungmin Kang and Juyeon Yoon and Nargiz Askarbekkyzy and Shin Yoo},
+      year={2023},
+      eprint={2311.04532},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+	  abstract={Bug reproduction is a critical developer activity that is also challenging to automate, as bug reports are often in natural language and thus can be difficult to transform to test cases consistently. As a result, existing techniques mostly focused on crash bugs, which are easier to automatically detect and verify. In this work, we overcome this limitation by using large language models (LLMs), which have been demonstrated to be adept at natural language processing and code generation. By prompting LLMs to generate bug-reproducing tests, and via a post-processing pipeline to automatically identify promising generated tests, our proposed technique LIBRO could successfully reproduce about one-third of all bugs in the widely used Defects4J benchmark. Furthermore, our extensive evaluation on 15 LLMs, including 11 open-source LLMs, suggests that open-source LLMs also demonstrate substantial potential, with the StarCoder LLM achieving 70% of the reproduction performance of the closed-source OpenAI LLM code-davinci-002 on the large Defects4J benchmark, and 90% of performance on a held-out bug dataset likely not part of any LLM's training data. In addition, our experiments on LLMs of different sizes show that bug reproduction using LIBRO improves as LLM size increases, providing information as to which LLMs can be used with the LIBRO pipeline.},
+	  pdf={https://arxiv.org/pdf/2311.04532.pdf},
+	  code={https://github.com/coinse/libro-journal-artifact},
+}
+
+@misc{lee2023github,
+  bibtex_show={true},
+      title={The GitHub Recent Bugs Dataset for Evaluating LLM-based Debugging Applications}, 
+      author={Jae Yong Lee and Sungmin Kang and Juyeon Yoon and Shin Yoo},
+      year={2023},
+      eprint={2310.13229},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+	  abstract={Large Language Models (LLMs) have demonstrated strong natural language processing and code synthesis capabilities, which has led to their rapid adoption in software engineering applications. However, details about LLM training data are often not made public, which has caused concern as to whether existing bug benchmarks are included. In lieu of the training data for the popular GPT models, we examine the training data of the open-source LLM StarCoder, and find it likely that data from the widely used Defects4J benchmark was included, raising the possibility of its inclusion in GPT training data as well. This makes it difficult to tell how well LLM-based results on Defects4J would generalize, as for any results it would be unclear whether a technique's performance is due to LLM generalization or memorization. To remedy this issue and facilitate continued research on LLM-based SE, we present the GitHub Recent Bugs (GHRB) dataset, which includes 76 real-world Java bugs that were gathered after the OpenAI data cut-off point.},
+	  pdf={https://arxiv.org/pdf/2310.13229.pdf},
+	  code={https://github.com/coinse/GHRB},
+}
 
 @misc{kang2023preliminary,
   bibtex_show={true},
