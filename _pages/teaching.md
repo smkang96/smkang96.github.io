@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Teaching
+description: teaching experience as a Ph.D. student
 nav: true
 nav_order: 5
 ---
