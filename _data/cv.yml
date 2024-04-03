@@ -55,9 +55,19 @@
   type: map
   contents:
     - name: Journal Reviewer
-      value: TOSEM (2023), TSE (2023), IEEE Software (2023)
+      value: TOSEM (2023, 2024), TSE (2023), IEEE Software (2023), PLOS ONE (2024)
     - name: Program Committee
       value: GI (<a href="https://geneticimprovementofsoftware.com/events/icse2024">2024</a>)
+
+- title: Patents
+  type: time_table
+  contents:
+    - year: 2021
+      items:
+        - Method for coloring a target image, and device and computer program therefor, US Patent App. 17/464,899
+    - year: 2024
+      items:
+        - Method, apparatus, and computer program for completing painting of image, and method, apparatus, and computer program for training artificial neural network, US Patent 11887224
 
 - title: Other Interests
   type: time_table
@@ -68,3 +78,6 @@
     - year: TRAVEL
       items:
         - I've traveled solo to Spain and Uzbekistan.
+    - year: TRIVIA
+      items:
+        - I got the highest ever score on a Korean TV quiz show (in 2020).
