@@ -11,7 +11,7 @@
   contents:
     - title: Ph.D. in Computer Science
       institution: Korea Advanced Institute of Science and Technology
-      year: current
+      year: 2024
       description:
         - Test Generation using Generative Models
         - Automated Debugging via Machine Learning
@@ -68,6 +68,7 @@
     - year: 2024
       items:
         - Method, apparatus, and computer program for completing painting of image, and method, apparatus, and computer program for training artificial neural network, US Patent 11887224
+        - Method and apparatus for operating benchmark system of software-debugging, Korean Patent App. 10-2024-0087100
 
 - title: Other Interests
   type: time_table
