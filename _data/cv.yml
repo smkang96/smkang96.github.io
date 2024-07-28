@@ -55,7 +55,7 @@
   type: map
   contents:
     - name: Journal Reviewer
-      value: TOSEM (2023, 2024), TSE (2023), IEEE Software (2023), PLOS ONE (2024)
+      value: TOSEM (2023, 2024), TSE (2023), JSS (2024), IEEE Software (2023), PLOS ONE (2024)
     - name: Program Committee
       value: ISSRE (<a href="https://issre.github.io/2024/committee_research-PC.html">2024</a>), GI (<a href="https://geneticimprovementofsoftware.com/events/icse2024">2024</a>), <a href="https://sites.google.com/view/llmfwec-2024">LLMfwEC</a>
 
