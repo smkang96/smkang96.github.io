@@ -55,9 +55,9 @@
   type: map
   contents:
     - name: Journal Reviewer
-      value: TOSEM (2023, 2024), TSE (2023), JSS (2024), IEEE Software (2023), PLOS ONE (2024)
+      value: TOSEM (2023, 2024), TSE (2023), JSS (2024), ASE (2024), IEEE Software (2023), PLOS ONE (2024)
     - name: Program Committee
-      value: ISSRE (<a href="https://issre.github.io/2024/committee_research-PC.html">2024</a>), GI (<a href="https://geneticimprovementofsoftware.com/events/icse2024">2024</a>, 2025), <a href="https://sites.google.com/view/llmfwec-2024">LLMfwEC</a>
+      value: ISSRE (2024), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
 
 - title: Patents
   type: time_table
@@ -78,7 +78,7 @@
         - I enjoy watching movies, both old and new. I am fond of [12 Angry Men].
     - year: TRAVEL
       items:
-        - I've traveled solo to Spain and Uzbekistan.
+        - I've traveled solo to Spain, Uzbekistan, and Georgia.
     - year: TRIVIA
       items:
         - I got the highest ever score on a Korean TV quiz show (in 2020).
