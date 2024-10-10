@@ -23,6 +23,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      institution: KAIST
+      year: 2024 - 2025
+      description:
+       - Working on analyzing LLM-based techniques to improve reliability.
+       - Supervised by Prof. Shin Yoo.
+
     - title: Intern (Remote)
       institution: Microsoft Research Asia (Beijing)
       year: 2022 - 2023
@@ -57,7 +64,7 @@
     - name: Journal Reviewer
       value: TOSEM (2023, 2024), TSE (2023), JSS (2024), ASE (2024), IEEE Software (2023), PLOS ONE (2024)
     - name: Program Committee
-      value: ISSRE (2024), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
+      value: ISSRE (2024), DeepTest (2025), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
 
 - title: Patents
   type: time_table
@@ -78,7 +85,7 @@
         - I enjoy watching movies, both old and new. I am fond of [12 Angry Men].
     - year: TRAVEL
       items:
-        - I've traveled solo to Spain, Uzbekistan, and Georgia.
+        - I've traveled solo to Spain, Uzbekistan, and <a href="https://en.wikipedia.org/wiki/Georgia_(country)">Georgia</a>.
     - year: TRIVIA
       items:
         - I got the highest ever score on a Korean TV quiz show (in 2020).
