@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://smkang96.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://smkang96.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-10T03:53:12+00:00</updated><id>https://smkang96.github.io/feed.xml</id><title type="html">blank</title><subtitle>Sungmin&apos;s Blog
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://smkang96.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://smkang96.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-12-03T02:25:56+00:00</updated><id>https://smkang96.github.io/feed.xml</id><title type="html">blank</title><subtitle>Sungmin&apos;s Blog
 </subtitle><entry><title type="html">[ICSE 2023] Exploring LLM-based General Bug Reproduction</title><link href="https://smkang96.github.io/blog/2023/libro-explained/" rel="alternate" type="text/html" title="[ICSE 2023] Exploring LLM-based General Bug Reproduction" /><published>2023-08-27T07:08:00+00:00</published><updated>2023-08-27T07:08:00+00:00</updated><id>https://smkang96.github.io/blog/2023/libro-explained</id><content type="html" xml:base="https://smkang96.github.io/blog/2023/libro-explained/"><![CDATA[<p>(Associated files, such as the bibtex or slides, can be found <a href="/al-folio/publications/#Kang2023aa">here</a>.)</p>
 
 <p>TLDR: This paper introduces <code class="language-plaintext highlighter-rouge">LIBRO</code>, a technique that automatically reproduces bug reports with high precision.</p>
@@ -26,7 +26,7 @@ Unless I’m mistaken, this contradicts the IEEE standard.</p>
 
 <p>However, to build a tool that is actually useful to developers, simply generating many solutions from an LLM is not enough - we can’t hand a hundred candidate reproducing tests to a developer and say “job done”. Thankfully, for automatic bug reproduction, we find features that can help reduce this manual inspection cost. For example, a bug reproducing test should actually fail on the current, buggy version of the code, which allows us to automatically filter a portion of the unhelpful solutions. We bundled this heuristic, along with others, as an automated post-processing pipeline, specialized for handling bug reproduction.</p>
 
-<p>With LLMs and the post-processing, which together we group in the tool <code class="language-plaintext highlighter-rouge">LIBRO</code>, we could both reproduce <strong>one-third</strong> of all of the bugs in the Defects4J benchmark, which is a substantially better performance than the baselines that we compared against. Furthermore, with the postprocessing pipeline we could achieve a precision of up to 0.85, reducing developer hassle with false positives.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>With LLMs and the post-processing, which together we group in the tool <code class="language-plaintext highlighter-rouge">LIBRO</code>, we could both reproduce <strong>one-third</strong> of all of the bugs in the Defects4J benchmark, which is a substantially better performance than the baselines that we compared against. Furthermore, with the postprocessing pipeline we could achieve a precision of up to 0.85, reducing developer hassle with false positives.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <h2 id="perspective-a-year-after-submitting-the-paper">Perspective A Year After Submitting The Paper</h2>
 
@@ -38,7 +38,7 @@ Unless I’m mistaken, this contradicts the IEEE standard.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>In <a href="https://dl.acm.org/doi/10.1145/2931037.2931051">prior work</a> on fault localization, most developers reported that they would be satisfied with an FL tool with an accuracy of ca. 90%, so it is feasible that developers would be satisfied with the precision of <code class="language-plaintext highlighter-rouge">LIBRO</code>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

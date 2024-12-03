@@ -170,7 +170,7 @@ Unless I’m mistaken, this contradicts the IEEE standard.</p>
 
 <p>However, to build a tool that is actually useful to developers, simply generating many solutions from an LLM is not enough - we can’t hand a hundred candidate reproducing tests to a developer and say “job done”. Thankfully, for automatic bug reproduction, we find features that can help reduce this manual inspection cost. For example, a bug reproducing test should actually fail on the current, buggy version of the code, which allows us to automatically filter a portion of the unhelpful solutions. We bundled this heuristic, along with others, as an automated post-processing pipeline, specialized for handling bug reproduction.</p>
 
-<p>With LLMs and the post-processing, which together we group in the tool <code class="language-plaintext highlighter-rouge">LIBRO</code>, we could both reproduce <strong>one-third</strong> of all of the bugs in the Defects4J benchmark, which is a substantially better performance than the baselines that we compared against. Furthermore, with the postprocessing pipeline we could achieve a precision of up to 0.85, reducing developer hassle with false positives.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+<p>With LLMs and the post-processing, which together we group in the tool <code class="language-plaintext highlighter-rouge">LIBRO</code>, we could both reproduce <strong>one-third</strong> of all of the bugs in the Defects4J benchmark, which is a substantially better performance than the baselines that we compared against. Furthermore, with the postprocessing pipeline we could achieve a precision of up to 0.85, reducing developer hassle with false positives.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
 
 <h2 id="perspective-a-year-after-submitting-the-paper">Perspective A Year After Submitting The Paper</h2>
 
@@ -182,7 +182,7 @@ Unless I’m mistaken, this contradicts the IEEE standard.</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>In <a href="https://dl.acm.org/doi/10.1145/2931037.2931051" rel="external nofollow noopener" target="_blank">prior work</a> on fault localization, most developers reported that they would be satisfied with an FL tool with an accuracy of ca. 90%, so it is feasible that developers would be satisfied with the precision of <code class="language-plaintext highlighter-rouge">LIBRO</code>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
     </li>
   </ol>
