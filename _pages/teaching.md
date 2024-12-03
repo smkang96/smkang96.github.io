@@ -10,8 +10,8 @@ nav_order: 5
 ## Giving Lectures
 
 While Ph.D. students usually don't teach students in Korea,
-I was able to substitute for my PI while he was away for
-unexpected and unavoidable reasons.
+I was able to substitute for my PI on short notice
+while he was away due to health issues.
 
 Specifically, I've given substitute lectures (in English) on:
 
