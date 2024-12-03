@@ -1,3 +1,13 @@
+@inproceedings{milliken2025installamatic,
+  bibtex_show={true},
+      title={Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects}, 
+      author={Louis Milliken and Sungmin Kang and Shin Yoo},
+      year={2025},
+  booktitle = {2025 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)},
+  preview={installamatic_thumbnail.png},
+  abstract = {Many works have recently proposed the use of Large Language Model (LLM) based agents for performing 'repository level' tasks, loosely defined as a set of tasks whose scopes are greater than a single file. This has led to speculation that the orchestration of these repository-level tasks could lead to software engineering agents capable of performing almost independently of human intervention. However, of the suite of tasks that would need to be performed by this autonomous software engineering agent, we argue that one important task is missing, which is to fulfil project level dependency by installing other repositories. To investigate the feasibility of this repository level installation task, we introduce a benchmark of of repository installation tasks curated from 40 open source Python projects, which includes a ground truth installation process for each target repository. Further, we propose INSTALLAMATIC, an agent whose goal is to perform and verify the installation of a given repository by searching for relevant instructions from documentations in the repository. We evaluate our agent using this benchmark, and report that 55% of the studied repositories can be automatically installed by our agent. Through the results of our empirical evaluation, we identify the common causes for our agent's inability to install a repository, discuss the challenges faced in the design and implementation of such an agent and consider the implications that such an agent could have for developers.},
+}
+
 @misc{kang2024doctesting,
   bibtex_show={true},
       title={Identifying Inaccurate Descriptions in LLM-generated Code Comments via Test Execution}, 
