@@ -64,7 +64,7 @@
     - name: Journal Reviewer
       value: TOSEM (2023, 2024), TSE (2023), JSS (2024), ASE (2024), IEEE Software (2023), PLOS ONE (2024)
     - name: Program Committee
-      value: ISSRE (2024), DeepTest (2025), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
+      value: ICSE (2026), ISSRE (2024), DeepTest (2025), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
 
 - title: Patents
   type: time_table
