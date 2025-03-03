@@ -24,10 +24,17 @@
   type: time_table
   contents:
     - title: Postdoctoral Researcher
+      institution: NUS
+      year: 2025 - 2026
+      description:
+       - Working on improving LLM-based debugging techniques.
+       - Supervised by Prof. Abhik Roychoudhury.
+
+    - title: Postdoctoral Researcher
       institution: KAIST
       year: 2024 - 2025
       description:
-       - Working on analyzing LLM-based techniques to improve reliability.
+       - Worked on analyzing LLM-based techniques to improve reliability.
        - Supervised by Prof. Shin Yoo.
 
     - title: Intern (Remote)
@@ -62,7 +69,7 @@
   type: map
   contents:
     - name: Journal Reviewer
-      value: TOSEM (2023, 2024), TSE (2023), JSS (2024), ASE (2024), IEEE Software (2023), PLOS ONE (2024)
+      value: TOSEM (2023, 2024, 2025), TSE (2023, 2024), JSS (2024), ASE (2024), IEEE Software (2023, 2025), PLOS ONE (2024)
     - name: Program Committee
       value: ICSE (2026), ISSRE (2024), DeepTest (2025), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
 

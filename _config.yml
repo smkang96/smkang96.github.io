@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Sungmin
 middle_name:
 last_name: Kang
-email: sungmin.kang@kaist.ac.kr
+email: sungmin@nus.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Sungmin's Blog
 keywords: automated-program-repair, fault-localization, automated-debugging, testing, software-engineering, academic-website, portfolio-website  # add your own keywords or leave empty
