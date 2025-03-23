@@ -17,7 +17,7 @@ The issue for this bug was created at <code id="issue_time"></code>; see the rep
 
 ### Bug Report
 
-<pre id="bug_report"></pre>
+<pre id="bug_report" style="white-space: pre-wrap;"></pre>
 
 ### Patch
 
