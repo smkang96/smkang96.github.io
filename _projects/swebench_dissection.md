@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SWE-bench Dissected
-description: An analogue to Defects4J Dissected
+title: SWE-bench Dissection
+description: An analogue to Defects4J Dissection
 img: assets/img/12.jpg
 importance: 1
 category: work
