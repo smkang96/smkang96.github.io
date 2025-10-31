@@ -68,10 +68,12 @@
 - title: Service
   type: map
   contents:
+    - name: Chair
+      value: ICST'26 Artifact Evaluation
     - name: Journal Reviewer
-      value: TOSEM (2023, 2024, 2025), TSE (2023, 2024, 2025), JSS (2024), ASE (2024, 2025), IEEE Software (2023, 2025), PLOS ONE (2024)
+      value: TSE (2023, 2024, 2025), TOSEM (2023, 2024, 2025), EMSE (2025), JSS (2024, 2025), ASE (2024, 2025), IEEE Software (2023, 2025), PLOS ONE (2024)
     - name: Program Committee
-      value: ICSE (2026), ISSRE (2024, 2025), SSBSE (2025), ISSTA Tool Demo (2025), DeepTest (2025), SBFT (2025), GI (2024, 2025), LLMfwEC (2024)
+      value: ICSE (2026), ISSRE (2024, 2025), SSBSE (2025), ISSTA Tool Demo (2025), DeepTest (2025, 2026), SBFT (2025), GI (2024, 2025, 2026), LLMfwEC (2024)
 
 - title: Patents
   type: time_table
@@ -92,7 +94,7 @@
         - I enjoy watching movies, both old and new. I am fond of [12 Angry Men].
     - year: TRAVEL
       items:
-        - I've traveled solo to Spain, Uzbekistan, and <a href="https://en.wikipedia.org/wiki/Georgia_(country)">Georgia</a>.
+        - I frequently travel solo, most recently to Angkor Wat.
     - year: TRIVIA
       items:
         - I got the highest ever score on a Korean TV quiz show (in 2020).
