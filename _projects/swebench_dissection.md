@@ -67,6 +67,10 @@ Links to test files: <br>
         // codeContainer.innerHTML = '';
         // humanDoc.innerHTML = '';
         // autoDoc.innerHTML = '';
+        
+        // Clear old <ul> contents
+        changedFilesUL.innerHTML = "";
+        testFilesUL.innerHTML = "";
 
         // Display simple info
         bugNameSpan.textContent = data[index].instance_id;
