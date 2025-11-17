@@ -23,10 +23,17 @@ The issue for this bug was created at <code id="issue_time"></code>; see the rep
 
 <pre id="code_patch"></pre>
 
+Links to changed files: <br>
+
+<ul id="changed_files"></ul>
+
 ### Reproducing Test
 
 <pre id="test_patch"></pre>
 
+Links to test files: <br>
+
+<ul id="test_files"></ul>
 
 <script>
     let currentIndex = 0;
@@ -53,6 +60,8 @@ The issue for this bug was created at <code id="issue_time"></code>; see the rep
         const bugReportPre = document.getElementById('bug_report');
         const patchPre = document.getElementById('code_patch');
         const testPre = document.getElementById('test_patch');
+        const changedFilesUL = document.getElementById('changed_files');
+        const testFilesUL = document.getElementById('test_files');
 
         // // Clear previous content
         // codeContainer.innerHTML = '';
@@ -78,6 +87,28 @@ The issue for this bug was created at <code id="issue_time"></code>; see the rep
         bugReportPre.textContent = data[index].problem_statement;
         patchPre.textContent = data[index].patch;
         testPre.textContent = data[index].test_patch;
+
+        data[index].changed_files.forEach(f => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = f;
+            a.href = `https://github.com/${data[index].repo}/tree/${data[index].base_commit}/${f}`;
+            a.target = "_blank";
+
+            li.appendChild(a);
+            changedFilesUL.appendChild(li);
+        });
+
+        data[index].test_changed_files.forEach(f => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = f;
+            a.href = `https://github.com/${data[index].repo}/tree/${data[index].base_commit}/${f}`;
+            a.target = "_blank";
+
+            li.appendChild(a);
+            testFilesUL.appendChild(li);
+        });
     }
 
     // Call fetchData function when the page loads
