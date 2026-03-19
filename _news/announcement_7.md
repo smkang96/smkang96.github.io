@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am serving in the program committee of ICSE and ASE 2026. :pencil:
+I am serving in the program committee of ASE 2026 and ICSE 2027. :pencil:
