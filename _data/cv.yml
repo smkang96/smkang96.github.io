@@ -64,6 +64,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Distinguished Reviewer Award, from ICSE 2026
+    - year: 2025
+      items:
+        - Distinguished Dissertation Award, from KAIST SoC
     - year: 2023
       items: 
         - Best Position Paper Award, from GI 2023
