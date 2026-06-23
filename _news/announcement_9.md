@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-ExplainBench, a benchmark to evaluate the quality of explanations, was accepted at ASE'26! :speech_balloon:
+ExplainBench, which evaluates agent explanation quality, was accepted at ASE'26! :speech_balloon:
