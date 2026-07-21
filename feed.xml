@@ -1,5 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://smkang96.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://smkang96.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-07-02T15:37:17+00:00</updated><id>https://smkang96.github.io/feed.xml</id><title type="html">blank</title><subtitle>Sungmin&apos;s Blog
-</subtitle><entry><title type="html">[ICSE 2023] Exploring LLM-based General Bug Reproduction</title><link href="https://smkang96.github.io/blog/2023/libro-explained/" rel="alternate" type="text/html" title="[ICSE 2023] Exploring LLM-based General Bug Reproduction" /><published>2023-08-27T07:08:00+00:00</published><updated>2023-08-27T07:08:00+00:00</updated><id>https://smkang96.github.io/blog/2023/libro-explained</id><content type="html" xml:base="https://smkang96.github.io/blog/2023/libro-explained/"><![CDATA[<p>(Associated files, such as the bibtex or slides, can be found <a href="/al-folio/publications/#Kang2023aa">here</a>.)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://smkang96.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://smkang96.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-07-21T06:28:09+00:00</updated><id>https://smkang96.github.io/feed.xml</id><title type="html">blank</title><subtitle>Sungmin&apos;s Blog
+</subtitle><entry><title type="html">Why Think?</title><link href="https://smkang96.github.io/blog/2026/why-think/" rel="alternate" type="text/html" title="Why Think?" /><published>2026-07-21T06:22:00+00:00</published><updated>2026-07-21T06:22:00+00:00</updated><id>https://smkang96.github.io/blog/2026/why-think</id><content type="html" xml:base="https://smkang96.github.io/blog/2026/why-think/"><![CDATA[<p>Humanity has long prided itself on its ability to think - we call ourselves <em>Homo sapiens</em> after all. For a long time there was nothing on this planet that could think like us. Being an academic myself, I also value my capability for thought.</p>
+
+<p>In the last few years, however, we have made replicas of our thought process in the form of large language models (LLMs). LLMs are quite good at thinking - not only do they have a superhuman breadth of knowledge, they can reason well enough to solve long-standing math problems.</p>
+
+<p>This has made me wonder. If LLMs can think, and often reach even better conclusions than I can, why think? Will future generations still need to think?</p>
+
+<h3 id="think-to-interact-in-real-time">Think, to interact in real-time</h3>
+
+<p>One thing current LLMs struggle to do is to react in real-time. In many social situations, however, being able to answer immediately while on one’s feet is a critical requirement. Thus, one may argue that thinking is essential to navigate these cases.</p>
+
+<p>I am doubtful. LLM inference is being optimized every day. The capabilities to “read” social situations will also grow rapidly if that ever starts to become an economic bottleneck for AI in doing work. Thus, even if this is a reason one should think right now, it is not a durable reason to think.</p>
+
+<h3 id="think-to-gain-status">Think, to gain status</h3>
+
+<p>Let’s start by looking at something else: physical strength. Historically, physical strength was necessary to do many jobs: farming, blacksmithing, sailing, et cetera.</p>
+
+<p>At some point, physical strength became non-essential for many valuable jobs. The likely pivotal point was the industrial revolution, as we started using powerful machines to do the physical work, instead of doing it ourselves.</p>
+
+<p>As a result, physical strength is primarily a <strong>status symbol</strong> in everyday life now, not a functional barrier in doing work. Being better at sports or weightlifting has little practical value, but it increases one’s esteem.</p>
+
+<p>LLMs are automating thinking, just like the industrial revolution automated physically demanding tasks. Under this analogy, being capable of good thinking would still be valuable as a status symbol, rather than being an economically valuable capability. Good thinkers would be admired the way we admire people who can lift heavy objects, with the simultaneous understanding that machines are in an incomparable, separate category.</p>
+
+<h3 id="think-to-be-healthy">Think, to be healthy</h3>
+
+<p>Let’s extend the analogy with physical strength. Exercise is beneficial for one’s health, in addition to status. As a result, health is a big reason we continue to engage in physical activity, even when physical strength has little direct economic value.</p>
+
+<p>Just like a prolonged period of not exercising can have harmful effects on the body, prolonged periods of not thinking can have harmful effects on one’s mind and health. For a direct example, without a regular habit of thinking, one may grow indulgent and intolerant of inconveniences, in a way that is self-harming. There are many more indirect ways in which the lack of thinking harms one’s health as well.</p>
+
+<h3 id="think-to-understand-what-you-want">Think, to understand what you want</h3>
+
+<p>Machines cannot reproduce desires and needs. Even in a hypothetical world where machines themselves have desire, machines cannot reproduce <strong>your specific</strong> desires and needs.</p>
+
+<p>While knowing what you want sounds trivial, it usually requires thoughtful unpacking to understand what you truly want. For example, let’s say I feel irritated. Is it because I am in a hot subway station? Is it because I woke up late and couldn’t have breakfast and am now hungry? Is it because the person next to me is speaking loudly? Is it all of these or none of them? To disentangle this requires thought, and as long as LLMs do not have direct access to my brain, LLMs cannot provide the answers for me.</p>
+
+<p>This principle, that LLMs cannot tell you what you need, generalizes beyond the self. Coding agents, for example, can generate code at superhuman speed, but they cannot operate without someone telling them what to do in the first place. Thus, an accurate understanding of what is needed, and having the thinking acumen to distill that, is a durable reason to think.</p>
+
+<h3 id="think-to-be-original">Think, to be original</h3>
+
+<p>A famous quip from Ted Chiang for LLMs is that they are a “<a href="https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web">blurry jpeg of the web</a>”. That is, LLMs are a distillation of the monumental body of knowledge that humanity has compiled on the internet. While the individuals contributing to that knowledge were each unique, LLMs as a single model “average” over all of these individuals.</p>
+
+<p>Being “average” might sound like a surefire path to mediocre results, but it is not. Consider the “average face”, which can be constructed by averaging the face images of a large number of people. Often, the “average” face is better-looking than each of the individual faces, a phenomenon known as <a href="https://en.wikipedia.org/wiki/Averageness">averageness</a>, which is used as way of quantitatively measuring beauty. Similarly, LLMs, which represent an “average” of cognition, have well-rounded capabilities few individuals can match.</p>
+
+<p>The problem with “averageness” is thus more subtle. It is not that the “average” thinking LLMs can provide yields mediocre results: in fact it can deliver superior results than any individual on their own. Rather, the problem is that despite the superiority of the tool, you cannot stand out if you use LLMs for your thinking, because your superior tool will be something that everyone else has.</p>
+
+<p>Meanwhile, your own experiences nudge you to think differently from everyone else, as they are inhabiting a different physical body. Thus, if you can think based on your experiences, which you cannot directly share with an LLM (yet), your thoughts will have a unique nature that others would not be able to replicate.</p>
+
+<h3 id="think-for-the-joy-of-it">Think, for the joy of it</h3>
+
+<p>Yes, the cliché answer. I still think it’s true.</p>
+
+<hr />
+
+<h3 id="addendum-aaare-my-thoughts-original-though">Addendum: Aaare my thoughts original, though?</h3>
+
+<p>I typed everything above with my own hands and with my own thoughts, without the influence of any LLM (sans proofreading). But I was curious how LLMs would answer my question of why I should continue thinking. Here is a what they had to say (I asked them to give a three point summary):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>GPT-5.5</th>
+      <th>Claude Fable 5</th>
+      <th>Gemini 3.1 Pro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Thinking is how you decide what to value, not just what is true.</strong> An LLM can generate arguments and solutions, but only you can determine which questions are worth asking and which goals are worth pursuing.</td>
+      <td><strong>Thinking is constitutive, not just instrumental.</strong> You don’t think merely to produce conclusions; thinking is how you form beliefs you can genuinely call your own, understand <em>why</em> something is true, and remain the kind of agent who can judge whether an LLM’s answer is even right.</td>
+      <td><strong>Agency and Curiosity:</strong> While LLMs are exceptional pattern-matching engines, they lack intent and curiosity, only generating outputs when mathematically prompted to do so. Human thought remains the essential catalyst that asks novel questions, challenges paradigms, and sets the direction for new discovery.</td>
+    </tr>
+    <tr>
+      <td><strong>Thinking is how you judge rather than merely receive.</strong> Even if an LLM often reaches better conclusions, you need enough understanding to recognize when its reasoning applies, when it is mistaken, and when its answer conflicts with your own experience or priorities.</td>
+      <td><strong>Outsourced cognition atrophies.</strong> Judgment, taste, and the ability to ask good questions are skills maintained by use — and someone must still frame problems, evaluate outputs, and take responsibility for decisions, none of which can be delegated without ceasing to be the author of your own work.</td>
+      <td><strong>Context and Meaning:</strong> Your capacity for thought is intertwined with human ethics, emotion, and lived experience, allowing you to assign real-world significance to abstract concepts. An AI can synthesize vast amounts of academic literature, but only a human mind can ascertain <em>why</em> those findings actually matter to society.</td>
+    </tr>
+    <tr>
+      <td><strong>Thinking is part of living, not just a means to an answer.</strong> Curiosity, insight, and the gradual process of understanding are themselves meaningful human experiences; outsourcing every thought would be as impoverishing as outsourcing every conversation or every journey simply because someone else could do them better.</td>
+      <td><strong>Value and meaning live in the activity itself.</strong> Much like we still run despite cars, thinking carries intrinsic satisfaction and constitutes part of a flourishing human life — its worth was never solely in producing conclusions faster than the alternatives.</td>
+      <td><strong>Accountability and Judgment:</strong> Because AI can produce highly plausible but fundamentally ungrounded or hallucinated reasoning, your critical thinking is required to rigorously evaluate its conclusions. We must continue to think because we alone bear the moral and practical responsibility for how knowledge is applied in the real world.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As an exercise, the reader can think about whether my thoughts are in fact original.</p>]]></content><author><name></name></author><category term="musing" /><category term="essay" /><category term="thinking" /><summary type="html"><![CDATA[I think about why we should think when we have thinking machines.]]></summary></entry><entry><title type="html">[ICSE 2023] Exploring LLM-based General Bug Reproduction</title><link href="https://smkang96.github.io/blog/2023/libro-explained/" rel="alternate" type="text/html" title="[ICSE 2023] Exploring LLM-based General Bug Reproduction" /><published>2023-08-27T07:08:00+00:00</published><updated>2023-08-27T07:08:00+00:00</updated><id>https://smkang96.github.io/blog/2023/libro-explained</id><content type="html" xml:base="https://smkang96.github.io/blog/2023/libro-explained/"><![CDATA[<p>(Associated files, such as the bibtex or slides, can be found <a href="/al-folio/publications/#Kang2023aa">here</a>.)</p>
 
 <p>TLDR: This paper introduces <code class="language-plaintext highlighter-rouge">LIBRO</code>, a technique that automatically reproduces bug reports with high precision.</p>
 

@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>[ICSE 2023] Exploring LLM-based General Bug Reproduction | Sungmin  Kang</title>
+    <title>Why Think? | Sungmin  Kang</title>
     <meta name="author" content="Sungmin  Kang">
-    <meta name="description" content="An explanation of my ICSE'23 work, and perspective one year after submitting the paper">
+    <meta name="description" content="I think about why we should think when we have thinking machines.">
     <meta name="keywords" content="automated-program-repair, fault-localization, automated-debugging, testing, software-engineering, academic-website, portfolio-website">
 
 
@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%AD%90%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://smkang96.github.io/blog/2023/libro-explained/">
+    <link rel="canonical" href="https://smkang96.github.io/blog/2026/why-think/">
 
     <!-- Dark Mode -->
     
@@ -125,17 +125,17 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">[ICSE 2023] Exploring LLM-based General Bug Reproduction</h1>
-    <p class="post-meta">August 27, 2023</p>
+    <h1 class="post-title">Why Think?</h1>
+    <p class="post-meta">July 21, 2026</p>
     <p class="post-tags">
-      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+      <a href="/blog/2026"> <i class="fas fa-calendar fa-sm"></i> 2026 </a>
         ·  
-        <a href="/blog/category/academia">
-          <i class="fas fa-tag fa-sm"></i> academia</a>  
-          <a href="/blog/category/llm">
-          <i class="fas fa-tag fa-sm"></i> LLM</a>  
-          <a href="/blog/category/test-generation">
-          <i class="fas fa-tag fa-sm"></i> test_generation</a>  
+        <a href="/blog/category/musing">
+          <i class="fas fa-tag fa-sm"></i> musing</a>  
+          <a href="/blog/category/essay">
+          <i class="fas fa-tag fa-sm"></i> essay</a>  
+          <a href="/blog/category/thinking">
+          <i class="fas fa-tag fa-sm"></i> thinking</a>  
           
 
     </p>
@@ -144,50 +144,99 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>(Associated files, such as the bibtex or slides, can be found <a href="/al-folio/publications/#Kang2023aa">here</a>.)</p>
+      <p>Humanity has long prided itself on its ability to think - we call ourselves <em>Homo sapiens</em> after all. For a long time there was nothing on this planet that could think like us. Being an academic myself, I also value my capability for thought.</p>
 
-<p>TLDR: This paper introduces <code class="language-plaintext highlighter-rouge">LIBRO</code>, a technique that automatically reproduces bug reports with high precision.</p>
+<p>In the last few years, however, we have made replicas of our thought process in the form of large language models (LLMs). LLMs are quite good at thinking - not only do they have a superhuman breadth of knowledge, they can reason well enough to solve long-standing math problems.</p>
 
-<h2 id="motivation">Motivation</h2>
+<p>This has made me wonder. If LLMs can think, and often reach even better conclusions than I can, why think? Will future generations still need to think?</p>
 
-<p>When users or developers find bugs, they can report these bugs on issue tracker software, such as on GitHub as issues or on Jira. Such reports are called “bug reports”. Bug reports are generally written in natural language, and may be submitted without a <strong>test</strong> that reproduces the issue. This is a difficult situation for developers, as they will then have to manually try to reproduce the issue in the bug report by writing their own test code. Given the large volume of bug reports being submitted every day, this burden can be overwhelming. Thus, bug reproduction is a situation where automatic test generation could help developers.</p>
+<h3 id="think-to-interact-in-real-time">Think, to interact in real-time</h3>
 
-<p>Despite this, due to the difficulty of natural language processing, automatic bug reproduction has been mainly limited to crash bugs, where the expected behavior is clear - the program should not crash. This actually leaves some simple cases (from the human perspective) difficult to automatically handle for machines. For example, consider the following <a href="https://issues.apache.org/jira/browse/MATH-370" rel="external nofollow noopener" target="_blank">bug report</a> from Commons Math:</p>
+<p>One thing current LLMs struggle to do is to react in real-time. In many social situations, however, being able to answer immediately while on one’s feet is a critical requirement. Thus, one may argue that thinking is essential to navigate these cases.</p>
 
-<blockquote>
-  <p><strong>NaN in “equals” methods</strong></p>
+<p>I am doubtful. LLM inference is being optimized every day. The capabilities to “read” social situations will also grow rapidly if that ever starts to become an economic bottleneck for AI in doing work. Thus, even if this is a reason one should think right now, it is not a durable reason to think.</p>
 
-  <p>In “MathUtils”, some “equals” methods will return true if both argument are NaN.
-Unless I’m mistaken, this contradicts the IEEE standard.</p>
+<h3 id="think-to-gain-status">Think, to gain status</h3>
 
-  <p>If nobody objects, I’m going to make the changes.</p>
-</blockquote>
+<p>Let’s start by looking at something else: physical strength. Historically, physical strength was necessary to do many jobs: farming, blacksmithing, sailing, et cetera.</p>
 
-<p>In this case, it is clear what the expected behavior is to a human (<code class="language-plaintext highlighter-rouge">equals</code> methods should return false if both arguments are NaN). However, when trying to deal with this report using a rule-based algorithm, you immediately face two difficulties. First, the report does not explicitly spell out the expected behavior, so it is difficult to extract the expected behavior. Second, even if you get the oracle, all the code references in the report are disconnected, so it can be difficult to automatically write a test based on the available information. It is likely such difficulties that made automatic bug reproduction outside of crash bugs difficult.</p>
+<p>At some point, physical strength became non-essential for many valuable jobs. The likely pivotal point was the industrial revolution, as we started using powerful machines to do the physical work, instead of doing it ourselves.</p>
 
-<h2 id="approach-and-results">Approach and Results</h2>
+<p>As a result, physical strength is primarily a <strong>status symbol</strong> in everyday life now, not a functional barrier in doing work. Being better at sports or weightlifting has little practical value, but it increases one’s esteem.</p>
 
-<p>It is no longer news, but one of the observations of our paper is that large language models (LLMs) do quite a good job of overcoming these challenges. After all, LLMs are good enough at natural language processing to the extent that they are capable of <a href="https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html" rel="external nofollow noopener" target="_blank">explaining humor</a>, and they are capable of generating code as well. Consequently, they are a natural solution to the test reproduction problem.</p>
+<p>LLMs are automating thinking, just like the industrial revolution automated physically demanding tasks. Under this analogy, being capable of good thinking would still be valuable as a status symbol, rather than being an economically valuable capability. Good thinkers would be admired the way we admire people who can lift heavy objects, with the simultaneous understanding that machines are in an incomparable, separate category.</p>
 
-<p>However, to build a tool that is actually useful to developers, simply generating many solutions from an LLM is not enough - we can’t hand a hundred candidate reproducing tests to a developer and say “job done”. Thankfully, for automatic bug reproduction, we find features that can help reduce this manual inspection cost. For example, a bug reproducing test should actually fail on the current, buggy version of the code, which allows us to automatically filter a portion of the unhelpful solutions. We bundled this heuristic, along with others, as an automated post-processing pipeline, specialized for handling bug reproduction.</p>
+<h3 id="think-to-be-healthy">Think, to be healthy</h3>
 
-<p>With LLMs and the post-processing, which together we group in the tool <code class="language-plaintext highlighter-rouge">LIBRO</code>, we could both reproduce <strong>one-third</strong> of all of the bugs in the Defects4J benchmark, which is a substantially better performance than the baselines that we compared against. Furthermore, with the postprocessing pipeline we could achieve a precision of up to 0.85, reducing developer hassle with false positives.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></p>
+<p>Let’s extend the analogy with physical strength. Exercise is beneficial for one’s health, in addition to status. As a result, health is a big reason we continue to engage in physical activity, even when physical strength has little direct economic value.</p>
 
-<h2 id="perspective-a-year-after-submitting-the-paper">Perspective A Year After Submitting The Paper</h2>
+<p>Just like a prolonged period of not exercising can have harmful effects on the body, prolonged periods of not thinking can have harmful effects on one’s mind and health. For a direct example, without a regular habit of thinking, one may grow indulgent and intolerant of inconveniences, in a way that is self-harming. There are many more indirect ways in which the lack of thinking harms one’s health as well.</p>
 
-<p>Since then, there has been a substantial amount of work on test generation using large language models. Testing does seem to be one of the most natural applications of LLMs for software engineering - while LLMs have the tendency to be wrong, it is okay for tests to be “wrong”, as this may actually lead to the testing of interesting behavior, as we note in <a href="https://arxiv.org/abs/2306.05152" rel="external nofollow noopener" target="_blank">Robert et al.</a>.</p>
+<h3 id="think-to-understand-what-you-want">Think, to understand what you want</h3>
 
-<p>If I can leave one takeaway for any readers who have come this far, it is that while LLM results are certainly valuable, the generation results of LLMs can be much more valuable when they are evaluated by a rule-based system, as once this is done, it is easier for humans to have trust in such results. This is a theme of much of my subsequent work on LLMs: I argued this point in my <a href="/al-folio/publications/#Kang2023lg">GI workshop position paper</a>, and explicitly made this a central theme of my <a href="/al-folio/publications/#kang2023explainable">Automatic Scientific Debugging</a>.</p>
+<p>Machines cannot reproduce desires and needs. Even in a hypothetical world where machines themselves have desire, machines cannot reproduce <strong>your specific</strong> desires and needs.</p>
 
-<h3 id="footnotes">Footnotes</h3>
+<p>While knowing what you want sounds trivial, it usually requires thoughtful unpacking to understand what you truly want. For example, let’s say I feel irritated. Is it because I am in a hot subway station? Is it because I woke up late and couldn’t have breakfast and am now hungry? Is it because the person next to me is speaking loudly? Is it all of these or none of them? To disentangle this requires thought, and as long as LLMs do not have direct access to my brain, LLMs cannot provide the answers for me.</p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1">
-      <p>In <a href="https://dl.acm.org/doi/10.1145/2931037.2931051" rel="external nofollow noopener" target="_blank">prior work</a> on fault localization, most developers reported that they would be satisfied with an FL tool with an accuracy of ca. 90%, so it is feasible that developers would be satisfied with the precision of <code class="language-plaintext highlighter-rouge">LIBRO</code>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
-    </li>
-  </ol>
-</div>
+<p>This principle, that LLMs cannot tell you what you need, generalizes beyond the self. Coding agents, for example, can generate code at superhuman speed, but they cannot operate without someone telling them what to do in the first place. Thus, an accurate understanding of what is needed, and having the thinking acumen to distill that, is a durable reason to think.</p>
+
+<h3 id="think-to-be-original">Think, to be original</h3>
+
+<p>A famous quip from Ted Chiang for LLMs is that they are a “<a href="https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web" rel="external nofollow noopener" target="_blank">blurry jpeg of the web</a>”. That is, LLMs are a distillation of the monumental body of knowledge that humanity has compiled on the internet. While the individuals contributing to that knowledge were each unique, LLMs as a single model “average” over all of these individuals.</p>
+
+<p>Being “average” might sound like a surefire path to mediocre results, but it is not. Consider the “average face”, which can be constructed by averaging the face images of a large number of people. Often, the “average” face is better-looking than each of the individual faces, a phenomenon known as <a href="https://en.wikipedia.org/wiki/Averageness" rel="external nofollow noopener" target="_blank">averageness</a>, which is used as way of quantitatively measuring beauty. Similarly, LLMs, which represent an “average” of cognition, have well-rounded capabilities few individuals can match.</p>
+
+<p>The problem with “averageness” is thus more subtle. It is not that the “average” thinking LLMs can provide yields mediocre results: in fact it can deliver superior results than any individual on their own. Rather, the problem is that despite the superiority of the tool, you cannot stand out if you use LLMs for your thinking, because your superior tool will be something that everyone else has.</p>
+
+<p>Meanwhile, your own experiences nudge you to think differently from everyone else, as they are inhabiting a different physical body. Thus, if you can think based on your experiences, which you cannot directly share with an LLM (yet), your thoughts will have a unique nature that others would not be able to replicate.</p>
+
+<h3 id="think-for-the-joy-of-it">Think, for the joy of it</h3>
+
+<p>Yes, the cliché answer. I still think it’s true.</p>
+
+<hr>
+
+<h3 id="addendum-aaare-my-thoughts-original-though">Addendum: Aaare my thoughts original, though?</h3>
+
+<p>I typed everything above with my own hands and with my own thoughts, without the influence of any LLM (sans proofreading). But I was curious how LLMs would answer my question of why I should continue thinking. Here is a what they had to say (I asked them to give a three point summary):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>GPT-5.5</th>
+      <th>Claude Fable 5</th>
+      <th>Gemini 3.1 Pro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+<strong>Thinking is how you decide what to value, not just what is true.</strong> An LLM can generate arguments and solutions, but only you can determine which questions are worth asking and which goals are worth pursuing.</td>
+      <td>
+<strong>Thinking is constitutive, not just instrumental.</strong> You don’t think merely to produce conclusions; thinking is how you form beliefs you can genuinely call your own, understand <em>why</em> something is true, and remain the kind of agent who can judge whether an LLM’s answer is even right.</td>
+      <td>
+<strong>Agency and Curiosity:</strong> While LLMs are exceptional pattern-matching engines, they lack intent and curiosity, only generating outputs when mathematically prompted to do so. Human thought remains the essential catalyst that asks novel questions, challenges paradigms, and sets the direction for new discovery.</td>
+    </tr>
+    <tr>
+      <td>
+<strong>Thinking is how you judge rather than merely receive.</strong> Even if an LLM often reaches better conclusions, you need enough understanding to recognize when its reasoning applies, when it is mistaken, and when its answer conflicts with your own experience or priorities.</td>
+      <td>
+<strong>Outsourced cognition atrophies.</strong> Judgment, taste, and the ability to ask good questions are skills maintained by use — and someone must still frame problems, evaluate outputs, and take responsibility for decisions, none of which can be delegated without ceasing to be the author of your own work.</td>
+      <td>
+<strong>Context and Meaning:</strong> Your capacity for thought is intertwined with human ethics, emotion, and lived experience, allowing you to assign real-world significance to abstract concepts. An AI can synthesize vast amounts of academic literature, but only a human mind can ascertain <em>why</em> those findings actually matter to society.</td>
+    </tr>
+    <tr>
+      <td>
+<strong>Thinking is part of living, not just a means to an answer.</strong> Curiosity, insight, and the gradual process of understanding are themselves meaningful human experiences; outsourcing every thought would be as impoverishing as outsourcing every conversation or every journey simply because someone else could do them better.</td>
+      <td>
+<strong>Value and meaning live in the activity itself.</strong> Much like we still run despite cars, thinking carries intrinsic satisfaction and constitutes part of a flourishing human life — its worth was never solely in producing conclusions faster than the alternatives.</td>
+      <td>
+<strong>Accountability and Judgment:</strong> Because AI can produce highly plausible but fundamentally ungrounded or hallucinated reasoning, your critical thinking is required to rigorously evaluate its conclusions. We must continue to think because we alone bear the moral and practical responsibility for how knowledge is applied in the real world.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As an exercise, the reader can think about whether my thoughts are in fact original.</p>
 
     </div>
   </article>
@@ -206,7 +255,7 @@ Unless I’m mistaken, this contradicts the IEEE standard.</p>
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2026/why-think/">Why Think?</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/libro-explained/">[ICSE 2023] Exploring LLM-based General Bug Reproduction</a>
   </li>
 
 <div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
