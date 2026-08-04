@@ -49,7 +49,7 @@ function generateQR() {
         text: text,
         width: 256,
         height: 256,
-        correctLevel: QRCode.CorrectLevel.H
+        correctLevel: QRCode.CorrectLevel.M
     });
 
     setTimeout(() => {
