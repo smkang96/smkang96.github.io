@@ -7,15 +7,13 @@ importance: 3
 category: work
 ---
 
-Input text below to make a QR code.
-
+<div style="display: flex; justify-content: center;">
 <input
     type="text"
     id="qr_input"
     style="text-align:center;width:400px;height:28px;"
-    placeholder="https://example.com">
-
-<br><br>
+    placeholder="input here and press enter">
+</div>
 
 <div id="qr_container"></div>
 
@@ -84,9 +82,9 @@ document.getElementById("qr_input").addEventListener("keydown", function(e) {
 });
 </script>
 
-<details>
+<!-- <details>
 <summary>Motivation</summary>
 If you search for "free qr code generator" on Google, most of the top websites will ask for you to make an account and log in. This is frustrating, especially when they ask to make an account _after_ you put in the information for the QR. I don't really understand why it's hard to find an easy-to-use, client-side, vanilla QR code generating website without fuss, so I made one. (Er, ChatGPT wrote the code, and I hosted it here for my convenience.) <br><br>
 
 You might ask, doesn't Chrome generate QR codes? Yes, but it comes with a specific pointillism-esque style, with the dinosaur in the center, which makes it obvious that you got the QR code from Chrome. I want to be lazy, but not blatantly so.
-</details>
+</details> -->
