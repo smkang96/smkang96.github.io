@@ -10,7 +10,7 @@ related_posts: true
 
 How did people learn to read this stuff?
 
-![a close-up image of a cuneiform inscription](/assets/images/2026-07-24-21-45-34.png){: width="600" }
+![a close-up image of a cuneiform inscription](/assets/images/2026-07-24-21-45-34.png){: width="600" .center}
 
 I don't know why, but I've been thinking about this for a few months now, and decided to get to the bottom of it. 
 
@@ -26,7 +26,7 @@ Necessary caveats: I am (obviously) not an expert. While I wrote the post in its
 
 Travelers visiting ancient Persian lands regularly encountered sculptures accompanied by mysterious 'decorations':
 
-![dense cuneiform with sculpted figurines to the left, right, and bottom.](/assets/images/2026-07-24-23-30-31.png){: width="600" }
+![dense cuneiform with sculpted figurines to the left, right, and bottom.](/assets/images/2026-07-24-23-30-31.png){: width="600" .center}
 
 Many thought this was text, and tried to decipher it, without making much (known) progress. Nonetheless, there were some early guesses which turned out to be correct. For example, the Italian traveler Pietro Della Valle, who had been in the region between 1616-1621, saw the glyph
 
@@ -48,7 +48,7 @@ Such was the state by the 1760s - controversy on whether cuneiform even represen
 
 Carsten Niebuhr, a German mathematician and cartographer, excelled in his studies, and was thus recommended to be part of the Danish Arabia expedition at the age of 27. You can see his journey route below:
 
-![map of the danish expedition to yemen](/assets/images/2026-07-25-00-40-35.png){: width="600" }
+![map of the danish expedition to yemen](/assets/images/2026-07-25-00-40-35.png){: width="600" .center}
 
 _Image from [deSyracuse](https://twitter.com/deSyracuse/status/1171377770598977536)._
 
@@ -58,7 +58,7 @@ First, Niebuhr left highly accurate copies of the inscriptions at Persepolis, an
 
 Second, Niebuhr noticed that there was not just one but three types of script. See an image of how he classified them below (on the right, tables B, C, and D):
 
-![Niebuhr's table of script types](/assets/images/2026-07-25-14-25-10.png){: width="600" }
+![Niebuhr's table of script types](/assets/images/2026-07-25-14-25-10.png){: width="600" .center}
 
 Not having seen the inscriptions myself, it is difficult to know how easy it is to tell in person, but once they are organized like this it is relatively easy to see the differences. In type B, for example, the wedges only appear vertically or horizontally, _except_ when the wedge is used alone. In type C, various forms of diagonally oriented wedges appear. Type D is somewhat similar to type B, but there are generally more wedges. Probably there was some physical separation between the blocks, making it easier for Niebuhr to tell that they were meant to be distinct.
 
@@ -96,7 +96,7 @@ If we accept 𐏐 is a separator, the glyphs in Niebuhr's Table B cannot represe
 
 If the script is alphabetic, certain glyphs are likely vowels. We can identify which of them are vowels, by looking at glyph frequency, since vowels can be expected to occur more often. Indeed, three glyphs are notably more frequent: 𐎠, 𐎶[^2], and 𐎡.
 
-The usage of these glyphs closely fits vowel usage in the [Avestan](https://en.wikipedia.org/wiki/Avestan) language (the language used by the Persian peoples in 1500-400 BCE). Therefore, we can deduce that the language the glyphs are recording is similar in nature. This makes sense because the glyphs were found in Persian lands, and Avestan is a Persian language.[^3]
+Grotefend argued the usage of these glyphs closely fits vowel usage in the [Avestan](https://en.wikipedia.org/wiki/Avestan) language (the language used by the Persian peoples in 1500-400 BCE). Therefore, we can deduce that the language the glyphs are recording is similar in nature. This makes sense because the glyphs were found in Persian lands, and Avestan is a Persian language.[^3]
 
 ### The script is read left-to-right
 
@@ -104,15 +104,15 @@ Grotefend provides a stronger reason why the script is read left-to-right: namel
 
 Here, Grotefend did not give a specific example, but it's fairly easy to find one. Consider the often-recurring pattern "𐎧𐏁𐎠𐎹𐎰𐎡𐎹", and how it is recorded in Niebuhr's original table. We can see an instance of the _left_ part of it appearing on the right side of second line and the _right_ part at the left side of the third line. This provides reasonably strong indication that the glyphs are read left-to-right, top-to-bottom, just like the Latin alphabet usually is.
 
-![linebreak of common cuneiform word](/assets/images/2026-07-25-16-22-04.png){: width="600" }
+![linebreak of common cuneiform word](/assets/images/2026-07-25-16-22-04.png){: width="600" .center}
 
 ### The pattern "𐎧𐏁𐎠𐎹𐎰𐎡𐎹" likely means "king", with the king's name appearing to its left
 
 With the reading order in mind, Grotefend observes that Niebuhr's Table B and G start as:
 
-> Table B: &nbsp;&nbsp;`𐎭𐎠𐎼𐎹𐎺𐎢𐏁𐏐𐎧𐏁𐎠𐎹𐎰𐎡𐎹`
+> Table B: &nbsp;&nbsp;𐎭𐎠𐎼𐎹𐎺𐎢𐏁𐏐𐎧𐏁𐎠𐎹𐎰𐎡𐎹
 > 
-> Table G: `𐎧𐏁𐎹𐎠𐎼𐏁𐎠𐏐𐎧𐏁𐎠𐎹𐎰𐎡𐎹`
+> Table G: 𐎧𐏁𐎹𐎠𐎼𐏁𐎠𐏐𐎧𐏁𐎠𐎹𐎰𐎡𐎹
 
 From this, he conjectures that "𐎧𐏁𐎠𐎹𐎰𐎡𐎹" is a title, most likely "king", and that the sequence preceding "𐎧𐏁𐎠𐎹𐎰𐎡𐎹" is the king's name. This makes sense as there are also inscriptions where the "king" sequence appears in succession: "<span style="color:goldenrod">𐎧𐏁𐎠𐎹𐎰𐎡𐎹</span>𐏐<span style="color:goldenrod">𐎧𐏁𐎠𐎹𐎰𐎡𐎹</span>𐎠𐎴𐎠𐎶", which would mean "king of kings".
 
@@ -190,13 +190,13 @@ The "kh" read is also corroborated by our key word "king", "𐎧𐏁𐎠𐎹𐎰
 
 Grotefend, not being an expert in ancient Persian himself, used a dictionary of Old Persian words to reconstruct even more. For example, <span style="color:purple">𐎺𐏀𐎼𐎣</span> would read as "e?r?" based on what we have deduced. Grotefend thinks this word is an adjective (as it appears after "king"), and finds from the dictionary the word "eghré", meaning "strong" or "great". Thus he further connected "𐏀" with "gh" and "𐎣" with "é". Through such a process, he constructed the following table and provided the meaning of the shorter inscriptions from Niebuhr:
 
-![grotefend's table of old persian cuneiform decipherment](/assets/images/2026-07-26-18-24-36.png){: width="600" }
+![grotefend's table of old persian cuneiform decipherment](/assets/images/2026-07-26-18-24-36.png){: width="600" .center}
 
 Well, then, this looks good, are we done now?
 
 Not quite. When compared with a modern reconstruction, Grotefend's phonetic reconstruction wasn't even half correct. As mentioned, Grotefend relied on a dictionary of Old Persian words. However, later scholars pointed out that the dictionary he relied on had many problems itself, leading to incorrect deductions. That <span style="color:purple">𐎺𐏀𐎼𐎣</span> word earlier? Modern scholars would read it as "vazraka", not "eghré", so it was quite far off. 
 
-Without an accurate phonetic reconstruction, it was thus impossible to read text that did _not_ follow patterns already established. This contributed to skepticism amongst the academic experts in the area; to them, using Grotefend's table to decipher unknown text probably led to sounds that seemed meaningless or even impossible in the ancient Persian language. As a result, while Grotefend's results were clearly known and cited, there was significant skepticism.
+Without an accurate phonetic reconstruction, it was thus impossible to read text that did _not_ follow patterns already established. This contributed to skepticism amongst the academic experts in the area; to them, using Grotefend's table to decipher unknown text probably led to sounds that seemed meaningless or even impossible in the ancient Persian language.
 
 Grotefend's semantic reading was validated when _hieroglyphs_ were deciphered. In 1823, an Egyptian vase was found to have both the cuneiform "𐎧𐏁𐎹𐎠𐎼𐏁𐎠𐏐" and hieroglyphs spelling out "Xerxes". This further supported Grotefend's guess that [name2] was in fact Xerxes. Nonetheless, this did not rescue the ultimately incorrect phonetics.
 
@@ -206,7 +206,7 @@ Enter Eugène Burnouf. Born to a scholarly family, Burnouf was an expert in anci
 
 Here, the popular story seems to be that "Burnouf discovered that the first of the inscriptions published by Niebuhr contained a list of the satrapies of Darius", which is... another interesting but inaccurate story.[^8] 
 
-Having written this, though, I sympathize with simplifying, because it's really impossible to fully communicate what Burnouf did. This is because from this point on, decipherment becomes less about exciting ideas and more about the diligent application of language-specific knowledge, making it difficult to distill into a single compelling concept. Nonetheless, here is my hopefully more instructive summary of Burnouf's methodology based on my reading of [Burnouf's book](https://archive.org/details/mmoiresurdeuxin01burngoog/page/n196/mode/2up). 
+Having written this, though, I sympathize with simplifying, as it's impossible to fully communicate what Burnouf did. From this point on, decipherment becomes less about exciting ideas and more about the diligent application of language-specific knowledge, making it difficult to distill into a single compelling observation. Nonetheless, here is my hopefully more instructive summary of Burnouf's methodology based on my reading of [Burnouf's book](https://archive.org/details/mmoiresurdeuxin01burngoog/page/n196/mode/2up). 
 
 The key method for him was to note that there were some words that were close but not exact matches to known geographies and gods. I built the following table to simulate the knowledge that he had in his mind and show the technique: try to match the Grotefend reading to the closest known word, knowing that the Grotefend reading is partially accurate.
 
@@ -228,7 +228,7 @@ Contrary to the popular narrative, it is only after this series of corrections w
 
 Burnouf's phonetic reconstruction was _still_ not completely correct, but it was substantially closer than Grotefend's. Over the years, later scholars could further refine the phonetic reconstruction, eventually leading to its modern form:
 
-![Wikipedia's phonetic table of Old Persian cuneiform](/assets/images/2026-08-08-17-51-56.png){: width="600" }
+![Wikipedia's phonetic table of Old Persian cuneiform](/assets/images/2026-08-08-17-51-56.png){: width="600" .center}
 
 ## Epilogue: The Behistun Inscription
 
@@ -236,7 +236,7 @@ We have told the story of how the cuneiform type in Niebuhr's Table B, which he 
 
 Here, the British officer Henry Rawlinson played a role similar to Niebuhr. During his time in Persia, Rawlinson provided an accurate depiction of the [Behistun Inscription](https://en.wikipedia.org/wiki/Behistun_inscription), which has inscriptions in all cuneiform types, but which are much longer. This seems to have been enough source material for the decipherment of the other types. Just look at how much is inscribed: all the "lines" you see on the left, on the right, and on the bottom of the photograph are all in fact cuneiform from what I can see.
 
-![A photograph of the Behistun inscription](/assets/images/2026-08-08-17-59-53.png){: width="600" }
+![A photograph of the Behistun inscription](/assets/images/2026-08-08-17-59-53.png){: width="600" .center}
 
 But that's a story for another day, and I've satisfied my itch for a while. When (if?) we come back to this topic, we'll describe what ideas were used in deciphering the other, substantially more complex cuneiform types.
 
