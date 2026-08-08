@@ -2,7 +2,7 @@
 layout: post
 title: "How Cuneiform?"
 date: 2026-08-08 18:00:00+0800
-description: "An account of how the decipherment of cuneiform started"
+description: "The ideas behind the decipherment of Old Persian Cuneiform"
 categories: hobby fun
 giscus_comments: true
 related_posts: true
