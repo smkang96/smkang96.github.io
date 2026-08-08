@@ -996,3 +996,10 @@ nav[data-toggle="toc"] {
     }
   }
 }
+
+@font-face {
+  font-family: 'Noto Sans Old Persian';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Persian&display=swap') format('woff2');
+  font-display: swap;
+  unicode-range: U+103A0-103D5;
+}

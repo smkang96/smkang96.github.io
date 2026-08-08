@@ -60,7 +60,7 @@ Second, Niebuhr noticed that there was not just one but three types of script. S
 
 ![Niebuhr's table of script types](/assets/images/2026-07-25-14-25-10.png){: width="600" }
 
-Not having seen the inscriptions myself, it is difficult to know how easy it is to tell in person, but once they are organized like this it is relatively easy to see the differences. In type B, for example, the wedges only appear vertically or horizontally, _except_ when the wedge is used alone. In type C, various forms of diagonally oriented wedges appear. Type D is somewhat similar to type B, but there are generally more wedges. Probably there was some physical separation between the blocks, making it easier for Niebuhr to tell that they were meant to be separate.
+Not having seen the inscriptions myself, it is difficult to know how easy it is to tell in person, but once they are organized like this it is relatively easy to see the differences. In type B, for example, the wedges only appear vertically or horizontally, _except_ when the wedge is used alone. In type C, various forms of diagonally oriented wedges appear. Type D is somewhat similar to type B, but there are generally more wedges. Probably there was some physical separation between the blocks, making it easier for Niebuhr to tell that they were meant to be distinct.
 
 Finally, Niebuhr noticed that one of the three scripts he identified was the simplest, making it the prime target for decipherment. Regarding type B above, Niebuhr says (translated):
 
@@ -84,7 +84,7 @@ This observation in turn made it easy to realize that there is a common recurrin
 
 This is parsed favorably, so you should be able to make it out: "𐎧𐏁𐎠𐎹𐎰𐎡𐎹" is a frequently recurring pattern. What might it be, though? A name? A title? An article like "the"? Tychsen made some guesses as to how to read the script, but it was not the most accurate.
 
-It is at this point where [Georg Grotefend](https://en.wikipedia.org/wiki/Georg_Friedrich_Grotefend), a 27 year-old scholar, made a series of bold informed guesses that led to significant progress.
+It is at this point where [Georg Grotefend](https://en.wikipedia.org/wiki/Georg_Friedrich_Grotefend), a 27-year-old scholar, made a series of bold informed guesses that led to significant progress.
 
 In his 1802 submission to the Göttingen Society, Grotefend suggested the following:
 
@@ -92,7 +92,7 @@ In his 1802 submission to the Göttingen Society, Grotefend suggested the follow
 
 If we accept 𐏐 is a separator, the glyphs in Niebuhr's Table B cannot represent individual words. Not only are there too few observable glyphs for that, it is implausible that there would be repetitions of exact phrases over and over. Thus, the script is likely alphabetic.
 
-### The language it describes is likely old Persian
+### The language it describes is likely Old Persian
 
 If the script is alphabetic, certain glyphs are likely vowels. We can identify which of them are vowels, by looking at glyph frequency, since vowels can be expected to occur more often. Indeed, three glyphs are notably more frequent: 𐎠, 𐎶[^2], and 𐎡.
 
@@ -156,7 +156,7 @@ We can notice that almost all the words and order overlap; furthermore, [name1] 
 
 Then the recurrence of [name1] in Table G likely means that [name2] was a _son_ of [name1], with the <span style="color:red">𐏃</span> modifier perhaps doing a grammatical job related to the "son of" meaning. With this in mind, we can make an interesting observation about Table B: there, [word3] does _not_ have the king title following it, unlike Shapur's description and Table G, which explicitly note the father is a king. Thus, we need to find a Persian king whose father was not a king, but whose son was.
 
-Two Achaemenid kings that fit that pattern: Cyrus II and Darius I.[^4] A distinguishing factor is that for Cyrus II, the name of his father and son were the same (Cambyses). However, [name2] and [word3] are clearly different. So [name1] must be Darius! From here, we can deduce the sound values of the cuneiform, since we earlier suspected it to be alphabetic, and eventually decipher it all.
+Two Achaemenid kings fit that pattern: Cyrus II and Darius I.[^4] A distinguishing factor is that for Cyrus II, the name of his father and son were the same (Cambyses). However, [name2] and [word3] are clearly different. So [name1] must be Darius! From here, we can deduce the sound values of the cuneiform, since we earlier suspected it to be alphabetic, and eventually decipher it all.
 
 #### Grotefend's Description
 
@@ -172,7 +172,7 @@ Be it genealogy or guesstimate, Grotefend has concluded that [name1] is Darius a
 
 ### Phonetic Deduction
 
-Once a name is known, mapping it back to sounds might not seem _too_ hard. But consider: would the ancient Persians have pronounced who we call Darius the same way as we English speakers do? Probably not: "Darius" is in fact a Latin form of the Greek term for the King, so it is twice removed from the name in its native language. Thus, for accurate decipherment, one must try to reconstruct how the ancient Persians might have called their king.
+Once a name is known, mapping it back to sounds might not seem _too_ hard. But consider: would the ancient Persians have pronounced Darius the same way as we English speakers do? Probably not: "Darius" is in fact a Latin form of the Greek term for the King, so it is twice removed from the name in its native language. Thus, for accurate decipherment, one must try to reconstruct how the ancient Persians might have called their king.
 
 Grotefend reconstructed Darius's name from the Bible, where Darius is called "Darjavesch". Without describing why, he slightly modified this to "Dárheúsch",[^5] which was then used to identify the glyph sounds:
 
@@ -186,7 +186,7 @@ Conveniently, [name2] (Xerxes) shares almost all glyphs with Darius:
 |---|---|---|---|---|---|---|
 | ? | sch | h | a | r | sch | a |
 
-Here, 𐎠 poses a bit of a problem: Xerxes is nowadays read with an "e" sound, which is different from an "a" sound, so why would they be represented with the same glyph? Grotefend notes this and justifies that in non-cuneiform representations of the old language, the same character could be read as multiple sounds. (This is an instance where he was wrong - it seems like modern constructions of old Persian do not have the "eh" sound at all, and that a consistent "a" was the right reconstruction.)
+Here, 𐎠 poses a bit of a problem: Xerxes is nowadays read with an "e" sound, which is different from an "a" sound, so why would they be represented with the same glyph? Grotefend notes this and justifies that in non-cuneiform representations of the old language, the same character could be read as multiple sounds. (This is an instance where he was wrong - it seems like modern reconstructions of Old Persian do not have the "eh" sound at all, and that a consistent "a" was the right reconstruction.)
 
 As for the first character, Xerxes starts with a _kh_ sound or [x] in IPA, so we can follow Grotefend's reasoning of the characters in [name2] to be:
 
@@ -194,7 +194,7 @@ As for the first character, Xerxes starts with a _kh_ sound or [x] in IPA, so we
 |---|---|---|---|---|---|---|
 | kh | sch | h | e | r | sch | e |
 
-The "kh" part, for the record, is also corroborated by the reconstruction of our key word "king", "𐎧𐏁𐎠𐎹𐎰𐎡𐎹". Note how it starts with the same two glyphs as Xerxes! Grotefend says that an earlier scholar reconstructed the old Persian term for king to be "Khscheio", which corroborates the reading well.[^6]
+The "kh" part, for the record, is also corroborated by the reconstruction of our key word "king", "𐎧𐏁𐎠𐎹𐎰𐎡𐎹". Note how it starts with the same two glyphs as Xerxes! Grotefend says that an earlier scholar reconstructed the Old Persian term for king to be "Khscheio", which corroborates the reading well.[^6]
 
 Grotefend, not being an expert in ancient Persian himself, used a dictionary with Old Persian words to reconstruct even more. For example, look at <span style="color:purple">𐎺𐏀𐎼𐎣</span>. Based on our reconstruction it would sound like "e?r?". Grotefend thinks this word is an adjective (as it appears after "king"), and finds from the dictionary the word "eghré", meaning "strong" or "great". Thus he further connected "𐏀" with "gh" and "𐎣" with "é". Through such a process, he constructed the following table and provided the meaning of the shorter inscriptions from Niebuhr:
 
@@ -202,9 +202,9 @@ Grotefend, not being an expert in ancient Persian himself, used a dictionary wit
 
 Well, then, this looks good, are we done now?
 
-Not quite. When compared with a modern reconstruction, Grotefend's phonetic reconstruction wasn't even 50% right. As mentioned, Grotefend relied on a dictionary of Old Persian words. However, later scholars pointed out that the dictionary he relied on had many problems itself, leading to incorrect deductions. That <span style="color:purple">𐎺𐏀𐎼𐎣</span> word earlier? Modern scholars would read it as "vazraka", not "eghré", so it was quite far off. 
+Not quite. When compared with a modern reconstruction, Grotefend's phonetic reconstruction wasn't even half correct. As mentioned, Grotefend relied on a dictionary of Old Persian words. However, later scholars pointed out that the dictionary he relied on had many problems itself, leading to incorrect deductions. That <span style="color:purple">𐎺𐏀𐎼𐎣</span> word earlier? Modern scholars would read it as "vazraka", not "eghré", so it was quite far off. 
 
-Without an accurate phonetic reconstruction, it was thus impossible to read text that did _not_ follow patterns already established. This contributed to skepticism amongst the academic experts in the area; to them, decipherment based on Grotefend's table probably led to meaningless or even impossible sounds, based on their knowledge of the ancient Persian language. As a result, while Grotefend's results were clearly known and cited, there was significant skepticism.
+Without an accurate phonetic reconstruction, it was thus impossible to read text that did _not_ follow patterns already established. This contributed to skepticism amongst the academic experts in the area; to them, using Grotefend's table to decipher unknown text probably led to sounds that seemed meaningless or even impossible in the ancient Persian language. As a result, while Grotefend's results were clearly known and cited, there was significant skepticism.
 
 Grotefend's semantic reading was validated when _hieroglyphs_ were deciphered. In 1823, an Egyptian vase was found to have both the cuneiform "𐎧𐏁𐎹𐎠𐎼𐏁𐎠𐏐" and hieroglyphs spelling out "Xerxes". This further supported Grotefend's guess that [name2] was in fact Xerxes. Nonetheless, this did not rescue the ultimately incorrect phonetics.
 
@@ -214,7 +214,7 @@ Enter Eugène Burnouf. Born to a scholarly family, Burnouf was an expert in anci
 
 Here, the popular story seems to be that "Burnouf discovered that the first of the inscriptions published by Niebuhr contained a list of the satrapies of Darius", which is... another interesting but inaccurate story.[^7] 
 
-Having written this, though, I sympathize with simplifying, because it's really impossible to fully communicate what Burnouf did. This is because it is here where decipherment becomes less about exciting ideas and more about the diligent application of language-specific knowledge, making it difficult to distill into a single compelling concept. Nonetheless, here is my hopefully more instructive summary of Burnouf's methodology based on  my reading of [Burnouf's book](https://archive.org/details/mmoiresurdeuxin01burngoog/page/n196/mode/2up). 
+Having written this, though, I sympathize with simplifying, because it's really impossible to fully communicate what Burnouf did. This is because it is here where decipherment becomes less about exciting ideas and more about the diligent application of language-specific knowledge, making it difficult to distill into a single compelling concept. Nonetheless, here is my hopefully more instructive summary of Burnouf's methodology based on my reading of [Burnouf's book](https://archive.org/details/mmoiresurdeuxin01burngoog/page/n196/mode/2up). 
 
 The key method for him was to note that there were some words that were close but not exact matches to known geographies and gods. I built the following table to simulate the knowledge that he had in his mind and show the technique: try to match the Grotefend reading to the closest known word, knowing that the Grotefend reading is partially accurate.
 
@@ -226,13 +226,13 @@ The key method for him was to note that there were some words that were close bu
 | 𐎠𐎿𐎶𐎠𐎴𐎶 | asoatscho | ashmanem (the sky) |
 | 𐏃𐎧𐎠𐎶𐎴𐎡𐏁𐎡𐎹 | akhaotschoschoh | Bactria (region name) |
 
-If you tried matching the words, hopefully it wasn't too hard to match "auroghda" with Ahura Mazda, as both start with the "au" sound and end with "da". If we accept this match, we can identify that the "m" sound we would expect from Ahura Mazda is completely missing from Grotefend's reading. Thus, we can correct Grotefend's reading of "𐎶" from "o" to "m".
+If you tried matching the words, hopefully it wasn't too hard to match "auroghda" with Ahura Mazda, as both start with the "au" vowels and end with "da". If we accept this match, we can identify that the "m" sound we would expect from Ahura Mazda is completely missing from Grotefend's reading. Thus, we can correct Grotefend's reading of "𐎶" from "o" to "m".
 
 We can be surer of this reading, because it makes other readings closer to our matches. Consider the reading "asoatscho", which was probably one of the harder to match. Its reading would now be "asmatschm", close to "ashmanem". This is again almost accurate, while suggesting that "𐎴" should be read as "n" instead of "tsch".
 
-Continuing this process and completing the matching, reading "𐎴" as "n" completely reconstructs "-anam", so we can again be more confident. "akhaotschoschoh" becomes "akhamnoschoh", which matches "Achaemenid" sans the suffixes. Probably the easiest match was "bakhmrosch" matching Bactria, again sans suffixes. Again, this is a simplification of what Burnouf did - he had many more Persian words and cuneiform words to match consistently - but it illustrates the rough process through which he corrected Grotefend's reconstruction.
+To complete the matching process: reading "𐎴" as "n" completely reconstructs "-anam", so we can again be more confident. "akhaotschoschoh" becomes "akhamnoschoh", which matches "Achaemenid" sans the suffixes. Probably the easiest match was "bakhmrosch" matching Bactria, again sans suffixes. Again, this is a simplification of what Burnouf did - he had many more Persian words and cuneiform words to match consistently - but it illustrates the rough process through which he corrected Grotefend's reconstruction.
 
-To correct the popular narrative, it is only after this series of corrections was made that Burnouf discovered there was a list of satrapies in one of Niebuhr's inscriptions - he did not _start_ with the recognition that the list of satrapies was in the inscriptions.
+Contrary to the popular narrative, it is only after this series of corrections was made that Burnouf recognized there was a list of satrapies in one of Niebuhr's inscriptions - he did not _start_ with the recognition that the list of satrapies was in the inscriptions.
 
 Burnouf's phonetic reconstruction was _still_ not completely correct, but it was substantially closer than Grotefend's. Over the years, later scholars could further refine the phonetic reconstruction, eventually leading to its modern form:
 
@@ -240,21 +240,21 @@ Burnouf's phonetic reconstruction was _still_ not completely correct, but it was
 
 ## Epilogue: The Behistun Inscription
 
-We have told the story of how the cuneiform type in Niebuhr's Table B, which he identified as the easiest to decipher, was gradually understood. But what about the types in Table C and D?
+We have told the story of how the cuneiform type in Niebuhr's Table B, which he identified as the easiest to decipher, was gradually understood. But what about the types in Tables C and D?
 
-Here, the British officer Henry Rawlinson played a role similar to Niebuhr. During his time in Persia, Rawlinson provided an accurate depiction of the [Behistun Inscription](https://en.wikipedia.org/wiki/Behistun_inscription), which has inscriptions in all cuneiform types, but which are much longer. This seems to have been enough source material for the decipherment of the other types. Just look at how much is inscribed: all the "lines" you see on the left, on the right, and on the bottom of the photograph all are in fact cuneiform from what I can see.
+Here, the British officer Henry Rawlinson played a role similar to Niebuhr. During his time in Persia, Rawlinson provided an accurate depiction of the [Behistun Inscription](https://en.wikipedia.org/wiki/Behistun_inscription), which has inscriptions in all cuneiform types, but which are much longer. This seems to have been enough source material for the decipherment of the other types. Just look at how much is inscribed: all the "lines" you see on the left, on the right, and on the bottom of the photograph are all in fact cuneiform from what I can see.
 
 ![A photograph of the Behistun inscription](/assets/images/2026-08-08-17-59-53.png){: width="600" }
 
-But that's a story for another day, and I've satisfied my itch for a while. When (if?) we come back to this topic, we'll describe what ideas were used in deciphering substantially more complex other cuneiform types.
+But that's a story for another day, and I've satisfied my itch for a while. When (if?) we come back to this topic, we'll describe what ideas were used in deciphering the other, substantially more complex cuneiform types.
 
 ----
 
 ### Footnotes
 [^1]: wedge-form, cunei- is from the Latin [cuneus](https://en.wiktionary.org/wiki/cuneus)
 [^2]: To be clear, this is from the original 1802 text of Grotefend, but further research has revealed it is not a vowel.
-[^3]: Grotefend and the later Burnouf actually call the language "Zend", but every time I asked for typo checks Claude insisted the modern name for the language is "Avestan". Avestan does fit the period of use, so I used Avestan for consistency.
+[^3]: Grotefend and the later Burnouf actually call the language "Zend", but Avestan seems to be the modern term for the language, so I used Avestan for consistency.
 [^4]: Looking up the family tree of the Achaemenid dynasty, I was further confused by this explanation, as Cyrus II's father was also a king. Claude suggested that Herodotus, a Greek historian, did not consider Cyrus II's father a king. I looked at the Herodotus passage that Claude cited for that (1.107), but it was not clear to me. In any case Grotefend doesn't appear to have considered Cyrus as a candidate, so it doesn't matter.
 [^5]: While reviewing the manuscript, I realized that this change actually introduced more problems in the phonetic reconstruction: using the biblical "Darjavesch" would have potentially allowed the accurate reading of "𐎹" as "ya" and "𐎺" as "v". This was probably difficult to see by Grotefend because he thought cuneiform to be alphabetic, but much later research showed the Old Persian cuneiform to be partially syllabary (representing both consonant and vowel, as in "ya"). If one assumes alphabetic representation, the cuneiform does not have enough glyphs for Darjavesch.
 [^6]: This also fits well with e.g. kshatriya, which is of the same origin. I was initially confused by the _Decipherment of Cuneiform_ Wikipedia article which claimed the correct modern reading of 𐎧 is "wsa", but this seems wrong and "𐎧" as "kh" seems right.
-[^7]: Wikipedia can't exactly be faulted, because it is another error from _The Archaeology of the Cuneiform Inscriptions_, p.14, published in 1908. A small problem not worth noting in the main text: Niebuhr published inscriptions in Tables A-L, and Burnouf noted that _`Table I`_ of the inscriptions contains the list of tributaries, which is not the "first".
+[^7]: Wikipedia can't exactly be faulted, because it is another error from _The Archaeology of the Cuneiform Inscriptions_, p.14, published in 1908. A small problem not worth noting in the main text: Niebuhr published inscriptions in Tables A-L, and Burnouf noted that _`Table I`_ (i.e. the 9th table, counted in alphabetic order) of the inscriptions contains the list of tributaries, not the "first".
