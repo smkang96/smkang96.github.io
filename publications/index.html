@@ -189,6 +189,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2607.26451" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -196,7 +199,20 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Model (LLM) agents have seen rapid adoption in software engineering. As agents take a greater role in the actual generation of code, they are making larger changes, spanning tens to hundreds of lines. This makes manual review of agent results increasingly infeasible, leading developers to turn to explanations to understand enacted changes. Despite this, there are no benchmarks that evaluate the trustworthiness of agent-generated explanations. To bridge this gap, we propose ExplainBench, a benchmark to automatically evaluate explanations from coding agents. ExplainBench is based on the intuition that informative explanations should enable an LLM to correctly answer questions, allowing quantitative comparison of explanation quality between agents. With this observation, we construct a suite of questions that evaluates whether explanations accurately describe (1) the intended behavior of buggy code and (2) the effect of applying the agent patch itself. Experiments first reveal that explanation quality is a distinct axis of agent evaluation: ExplainBench ranks agents differently from the widely-used SWE-bench Verified benchmark. A deeper breakdown of explanation quality in agents shows frequent problems in explanations, such that explanations often claim that a patch is correct when it is not. Based on this insight, we implement and evaluate an explanation audit agent which runs additional tests to validate and refine explanations. This agent improved the explanations of all evaluated agents, demonstrating agent explanations can be automatically made more trustworthy.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">pan2026explainbench</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{ExplainBench: Evaluating Code Explanations from Agents}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Pan*, Zhiyuan and Kang*, Sungmin and Nur Bani Yusuf*, Imam and Roychoudhury, Abhik}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 41st International Conference on Automated Software Engineering}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{ASE 2026}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -257,6 +273,7 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://arxiv.org/pdf/2510.22530" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
@@ -268,6 +285,18 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Fault Localization (FL) aims to identify root causes of program failures. FL typically targets failures observed from test executions, and as such, often involves dynamic analyses to improve accuracy, such as coverage profiling or mutation testing. However, for large industrial software, measuring coverage for every execution is prohibitively expensive, making the use of such techniques difficult. To address these issues and apply FL in an industrial setting, this paper proposes AutoCrashFL, an LLM agent for the localization of crashes that only requires the crashdump from the Program Under Test (PUT) and access to the repository of the corresponding source code. We evaluate AutoCrashFL against real-world crashes of SAP HANA, an industrial software project consisting of more than 35 million lines of code. Experiments reveal that AutoCrashFL is more effective in localization, as it identified 30% crashes at the top, compared to 17% achieved by the baseline. Through thorough analysis, we find that AutoCrashFL has attractive practical properties: it is relatively more effective for complex bugs, and it can indicate confidence in its results. Overall, these results show the practicality of LLM agent deployment on an industrial scale.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">kang2026autocrashfl</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Finding the Needle in the Crash Stack: Industrial-Scale Crash Root Cause Localization with AutoCrashFL}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kang, Sungmin and Yun, Sumi and Hong, Jingun and Yoo, Shin and An, Gabin}</span><span class="p">,</span>
+  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2510.22530}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.SE}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2026 International Conference on Software Engineering (ICSE) Software Engineering In Practice (SEIP) Track}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
           </div>
         </div>
       </div>
@@ -315,6 +344,8 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
             <a href="https://www.arxiv.org/pdf/2507.22414" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
@@ -323,7 +354,18 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large language model (LLM) agents integrate external tools with one or more LLMs to accomplish specific tasks. Agents have rapidly been adopted by developers, and they are starting to be deployed in industrial workflows, such as their use to fix static analysis issues from the widely used SonarQube static analyzer. However, the growing importance of agents means their actions carry greater impact and potential risk. Thus, to use them at scale, an additional layer of trust and evidence is necessary. This work presents AutoCodeSherpa, a technique that provides explanations of software issues in the form of symbolic formulae. Inspired by the reachability, infection, and propagation model of software faults, the explanations are composed of input, infection, and output conditions, collectively providing a specification of the issue. In practice, the symbolic explanation is implemented as a combination of a property-based test (PBT) and program-internal symbolic expressions. Critically, this means our symbolic explanations are executable and can be automatically evaluated, unlike natural language explanations. Experiments show the generated conditions are highly accurate. For example, input conditions from AutoCodeSherpa had an accuracy of 85.7%. This high accuracy makes symbolic explanations particularly useful in two scenarios. First, the explanations can be used in automated issue resolution environments to decide whether to accept or reject patches from issue resolution agents; AutoCodeSherpa could reject 2x as many incorrect patches as baselines did. Secondly, as agentic AI approaches continue to develop, program analysis driven explanations like ours can be provided to other LLM-based repair techniques which do not employ analysis to improve their output. In our experiments, our symbolic explanations could improve the plausible patch generation rate of the Agentless technique by 60%.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">  <span class="c">author = {Kang*, Sungmin and Ruan*, Haifeng and Roychoudhury, Abhik},</span>
+  <span class="c">year = {2026},</span>
+  <span class="c">booktitle = {Proceedings of the 35th International Symposium on Software Testing and Analysis},</span>
+  <span class="c">series = {ISSTA 2026},</span>
+<span class="c">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li>
@@ -377,6 +419,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2501.18883" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -446,6 +489,7 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2412.06294" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -1373,6 +1417,7 @@ techniques, and further verifies our theoretical framework.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://coinse.github.io/publications/pdfs/Kang2022kl.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -1388,7 +1433,7 @@ techniques, and further verifies our theoretical framework.</p>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{8--15}</span><span class="p">,</span>
   <span class="na">series</span> <span class="p">=</span> <span class="s">{APR 2022}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Language Models Can Prioritize Patches for Practical Program Patching}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
@@ -1425,6 +1470,7 @@ techniques, and further verifies our theoretical framework.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://arxiv.org/pdf/2005.09296" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
           </div>
           
           <div class="badges">
@@ -1440,7 +1486,58 @@ techniques, and further verifies our theoretical framework.</p>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{521-528}</span><span class="p">,</span>
   <span class="na">series</span> <span class="p">=</span> <span class="s">{SBST 2020}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{SINVAD: Search-based Image Space Navigation for DNN Image Classifier Test Input Generation}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2017</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="kang2017coloring" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Consistent comic colorization with pixel-wise background classification</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Sungmin Kang</em>, Jaegul Choo, and Jaehyuk Chang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the NIPS</em>, 2017
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://nips2017creativity.github.io/doc/Consistent_Comic_Colorization.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">kang2017coloring</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Consistent comic colorization with pixel-wise background classification}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kang, Sungmin and Choo, Jaegul and Chang, Jaehyuk}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the NIPS}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{17}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2017}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
           </div>
         </div>
