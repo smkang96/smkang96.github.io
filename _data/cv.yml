@@ -27,7 +27,7 @@
       institution: NUS
       year: 2025 - 2026
       description:
-       - Working on improving LLM-based debugging techniques.
+       - Working on making agent systems trustworthy and explainable.
        - Supervised by Prof. Abhik Roychoudhury.
 
     - title: Postdoctoral Researcher
@@ -57,9 +57,9 @@
     - name: Chair
       value: ICST'26 Artifact Evaluation
     - name: Journal Reviewer
-      value: TSE (2023-2026), TOSEM (2023-2026), EMSE (2025), JSS (2024, 2025), ASE (2024, 2025), et cetera
+      value: TSE (2023-2026), TOSEM (2023-2026), EMSE (2025-2026), JSS (2024-2025), ASE (2024-2025), et cetera
     - name: Program Committee
-      value: ICSE (2026-2027), ASE (2026), ISSRE (2024-2025), SSBSE (2025), et cetera
+      value: ICSE (2026-2027), FSE (2027), ASE (2026), ISSRE (2024-2025), SSBSE (2025), et cetera
 
 - title: Honors and Awards
   type: time_table
@@ -100,7 +100,7 @@
         - I enjoy watching movies, both old and new. I am fond of [12 Angry Men].
     - year: TRAVEL
       items:
-        - I frequently travel solo. My most recent trip was to <a href="https://en.wikivoyage.org/wiki/Taipei">Taipei</a>.
+        - I frequently travel abroad. My most recent trip was to <a href="https://en.wikivoyage.org/wiki/Taipei">Taipei</a>.
     - year: TRIVIA
       items:
         - I got the highest ever score on a Korean TV quiz show (in 2020).
